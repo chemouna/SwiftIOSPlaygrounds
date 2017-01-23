@@ -2,4 +2,15 @@
 
 import UIKit
 
-var str = "Hello, playground"
+
+// class initializers
+class Sample {
+    var aStringWithDefaultValue = "DefaultValue"
+    var aStringSetInInitializer: String
+    
+    init() {
+        aStringSetInInitializer = "Set in initializer"
+    }
+}
+
+// Designated intializers
